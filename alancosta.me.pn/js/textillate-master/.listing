@@ -1,0 +1,9 @@
+drwxr-xr-x   3 1489345  1111          131 Jul  7 21:04 .
+drwxr-xr-x   7 1489345  1111         4096 Jul  8 21:31 ..
+drwxr-xr-x   2 1489345  1111           90 Jul  7 21:05 assets
+-rwxr-xr-x   1 1489345  1111          595 Jul  7 21:04 bower.json
+-rwxr-xr-x   1 1489345  1111           56 Jul  7 21:04 .gitattributes
+-rwxr-xr-x   1 1489345  1111         9200 Jul  7 21:04 index.html
+-rwxr-xr-x   1 1489345  1111         7902 Jul  7 21:04 jquery.textillate.js
+-rwxr-xr-x   1 1489345  1111         1059 Jul  7 21:04 LICENSE
+-rwxr-xr-x   1 1489345  1111         4137 Jul  7 21:04 README.md

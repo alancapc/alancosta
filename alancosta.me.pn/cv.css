@@ -1,0 +1,242 @@
+/*
+Copyright (c) 2003-2014, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or http://ckeditor.com/license
+*/
+
+body
+{
+	/* Font */
+	font-family: sans-serif, Arial, Verdana, "Trebuchet MS";
+	font-size: 12px;
+
+	/* Text color */
+	/*color: #333;*/
+	color: #fff;
+
+	/* Remove the background color to make it transparent */
+	/*background-image: url(images/cvbg.png);*/
+	background: rgb(51, 51, 51);
+	/* background-color: #fff; */
+
+	margin: 20px;
+}
+
+#foto
+{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	float: right;
+	height: 152px;
+}
+
+.contact
+{
+	height: 120px;
+}
+
+.left
+{
+	width: 35%;
+	overflow: hidden;
+	float: left;
+	text-align: justify;
+	border-right: 1px solid;
+	border-right-color: white;
+}
+.academic
+{
+	margin-top: 10px;
+	overflow: hidden;
+	background-color: rgb(51, 51, 51);
+	float: left;
+	width: 90%;
+}
+
+.worke
+{
+	text-align: justify;
+	margin-top: 10px;
+	display: inline-block;
+	overflow: hidden;
+	width: 90%;
+	background-color: rgb(51, 51, 51);
+}
+
+.midle
+{
+	float: left;
+	margin-left: 25px;
+	width: 30%;
+	overflow: hidden;
+	border-right: 1px solid;
+	border-right-color: white;
+}
+
+.languages
+{
+	margin-top: 10px;
+	float: left;
+	width: 46%;
+	display: inline-block;
+	background-color: rgb(51, 51, 51);
+}
+.personals
+{
+	margin-top: 10px;
+	display: inline-block;
+	overflow: hidden;
+	float: right;
+	width: 52%;
+	background-color: rgb(51, 51, 51);
+}
+.aet
+{
+	margin-top: 10px;
+	text-align: justify;
+	display: inline-block;
+	overflow: hidden;
+	width: 100%;
+	background-color: rgb(51, 51, 51);
+}
+
+.right
+{
+	text-align: justify;
+	width: 30%;
+	margin-left: 10px;
+	overflow: hidden;	
+	float: left;
+
+}
+
+.personalq
+{
+	margin-left: 10px;
+	margin-top: 10px;
+	display: inline-block;
+	overflow: hidden;
+	width: 100%;
+	background-color: rgb(51, 51, 51);
+}
+
+.courses
+{
+	margin-left: 10px;
+	margin-top: 10px;
+	display: inline-block;
+	float: left;
+	width: 100%;
+	background-color: rgb(51, 51, 51);
+}
+
+.golden
+{
+	color: rgb(180, 136, 80);
+	text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+.cke_editable
+{
+	font-size: 13px;
+	line-height: 1.6;
+}
+
+blockquote
+{
+	font-style: italic;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	padding: 2px 0;
+	border-style: solid;
+	border-color: #ccc;
+	border-width: 0;
+}
+
+.cke_contents_ltr blockquote
+{
+	padding-left: 20px;
+	padding-right: 8px;
+	border-left-width: 5px;
+}
+
+.cke_contents_rtl blockquote
+{
+	padding-left: 8px;
+	padding-right: 20px;
+	border-right-width: 5px;
+}
+
+a
+{
+	color: #0782C1;
+}
+
+ol,ul,dl
+{
+	/* IE7: reset rtl list margin. (#7334) */
+	*margin-right: 0px;
+	/* preserved spaces for list items with text direction other than the list. (#6249,#8049)*/
+	padding: 0 15px;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	font-weight: normal;
+	line-height: 1.2;
+}
+
+hr
+{
+	border: 0px;
+	border-top: 1px solid #ccc;
+}
+
+img.right
+{
+	border: 1px solid #ccc;
+	float: right;
+	margin-left: 15px;
+	padding: 5px;
+}
+
+img.left
+{
+	border: 1px solid #ccc;
+	float: left;
+	margin-right: 15px;
+	padding: 5px;
+}
+
+pre
+{
+	white-space: pre-wrap; /* CSS 2.1 */
+	word-wrap: break-word; /* IE7 */
+}
+
+.marker
+{
+	background-color: Yellow;
+}
+
+span[lang]
+{
+   font-style: italic;
+}
+
+figure
+{
+	text-align: center;
+	border: solid 1px #ccc;
+	border-radius: 2px;
+	background: rgba(0,0,0,0.05);
+	padding: 10px;
+	margin: 10px 20px;
+	display: block; /* For IE8 */
+}
+
+figure figcaption
+{
+	text-align: center;
+	display: block; /* For IE8 */
+}
+
